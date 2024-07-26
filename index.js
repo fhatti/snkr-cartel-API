@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const cors = require("cors")
 const Sneaker = require("./models/sneaker");
 
 const admin = require("firebase-admin");
@@ -10,7 +11,7 @@ admin.initializeApp({
 });
 
 const db = admin.firestore();
-
+app.use(cors({ origin: 'http://localhost:5173' })); // restricted to specific origin e.g. snkr-cartel dev server
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
