@@ -5,15 +5,15 @@ Snkr-Cartel API is a web application that allows users to manage and view a coll
 
 
 ## Endpoints
-GET /: Welcome message from the API.
-POST /create: Create a new sneaker record.
-GET /read/all: Retrieve all sneaker records.
-GET /read/:id: Retrieve a sneaker record by its ID.
-POST /update: Update the price of a sneaker by ID.
-DELETE /delete/:id: Delete a sneaker record by its ID.
+### GET /: Welcome message from the API.
+### POST /create: Create a new sneaker record.
+### GET /read/all: Retrieve all sneaker records.
+### GET /read/:id: Retrieve a sneaker record by its ID.
+### POST /update: Update the price of a sneaker by ID.
+### DELETE /delete/:id: Delete a sneaker record by its ID.
 
 
-## Testing with Postman
+# Testing with Postman
 To test the API endpoints, you can use Postman, a popular API client. Follow these steps:
 
 Install Postman: If you haven't installed Postman, you can download it.
