@@ -1,7 +1,7 @@
 # Snkr-Cartel API
 
 ## Description
-Snkr-Cartel API is a web application that allows users to manage and view a collection of sneakers. The API provides endpoints for creating, reading, updating, and deleting sneaker records in a Firestore database.
+Snkr-Cartel API is a web application made with Nodejs that allows users to manage and view a collection of sneakers. The API provides endpoints for creating, reading, updating, and deleting sneaker records in a Firestore database.
 
 
 ## Endpoints
