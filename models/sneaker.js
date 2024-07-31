@@ -1,5 +1,5 @@
 class Sneaker {
-  constructor(name, price, rating, reviewsNr, imgUrl, stock, brand, userId, username) {
+  constructor(name, price, rating, reviewsNr, imgUrl, stock, brand, userId, email, image) {
     this.name = name;
     this.price = price;
     this.rating = rating;
@@ -8,7 +8,8 @@ class Sneaker {
     this.stock = stock;
     this.brand = brand;
     this.userId = userId;
-    this.username = username;
+    this.email = email;
+    this.image = image;
 
   }
 
@@ -22,7 +23,8 @@ class Sneaker {
       stock: this.stock,
       brand: this.brand,
       userId : this.userId,
-      username : this.username,
+      email : this.email,
+      image: this.image,
     };
     return Object.fromEntries(Object.entries(plainObject).filter(([_, v]) => v !== undefined));
   }
